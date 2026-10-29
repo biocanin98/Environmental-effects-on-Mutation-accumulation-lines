@@ -52,7 +52,7 @@ Plot growth rate taking into account initial tip variation
 
 ## Statistical analysis - Bayesian environmental-effect and invariance analysis for oCelloscope MA-line summary
 
-###Description
+### Description
 
 For this analysis I used Bayesian hierarchical models, using brms and Stan packages.
 
@@ -68,7 +68,7 @@ Predictive performance was evaluated using Pareto-smoothed importance sampling l
 
 
 
-###Script
+### Script
 Place both MA_environmental_invariance_Bayesian.R and summary_results.zip in the
 same folder in RStudio. Run source("MA_environmental_invariance_Bayesian.R").
 
