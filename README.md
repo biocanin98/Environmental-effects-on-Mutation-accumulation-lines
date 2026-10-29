@@ -45,6 +45,8 @@ Plot growth rate taking into account initial tip variation
 
 4. Detailed comparison and quality control between two different measurements: compare_MA_measurements.R
 
+   Results in subfolder: Summary_Results
+
 
 
 
