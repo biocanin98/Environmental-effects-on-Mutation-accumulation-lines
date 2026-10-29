@@ -1,10 +1,10 @@
 # Environmental-effects-on-Mutation-accumulation-lines
 
-This project analyses environmental effects on Mutation accumulation lines. 
+This project involves analyzing environmental effects on parental MA lines previously developed (see: https://pubmed.ncbi.nlm.nih.gov/36922001/). 
 
-Research question: are the effects of parental-MA lines invariant in respect to their environment.
+Research question: are the effects of parental-MA lines invariant in respect to their environment?
 
-Stressful environments include: high temperature (38C and 40C), hypersalinity (0.5 M and 1 M of NaCl), pH (7 and 8)
+Stressful environments include: high temperature (38C and 40C), hypersalinity (0.5 M and 1 M of NaCl), pH (7 and 8) - 6 stressful environments in total. 
 
 ## Summary of the data, growth rate calculation and quality control check
 
