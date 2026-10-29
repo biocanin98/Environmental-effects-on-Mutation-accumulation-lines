@@ -8,6 +8,8 @@ For more information: https://pubmed.ncbi.nlm.nih.gov/36922001/
 
 1. For generating raw growth rate curves, use script oCelloscope_functions.R.
 
+Note: different oCelloscope settings are used e.g. testdata <- load.ocelloscope.data2("Test1_scan_areas.csv", sep = ",", dec = ".", repetitions = 60, features = c("EstimatedVolume", "HyphaeArea", "NumberOfTips", "TipsPerArea", "TimestampInSeconds"))`
+
 For more information: https://github.com/ikron/oCelloscope/tree/master
 
 2. Calculate growth rate taking into account variation of initial tip number - script: Growth_rate_calculations.R
