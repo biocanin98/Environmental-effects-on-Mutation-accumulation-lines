@@ -13,6 +13,7 @@ For more information: https://github.com/ikron/oCelloscope/tree/master
 2. Calculate growth rate taking into account variation of initial tip number - script: Growth_rate_calculations.R
 
 Isolate windowed area
+
   `ggplot(
     dplyr::filter(longdata, Time >= 0 & Time <= 15000),
     aes(x = Time, y = area, group = sample)
@@ -23,9 +24,11 @@ Isolate windowed area
     ylab("Area")`
 
 Calculate growth rate taking into account initial tip variation
+
 `gr.res <- dplyr::mutate(gr.res, gr_per_tip = dplyr::if_else(tips.at.limit1 > 0, gr / tips.at.limit1, NA_real_))`
 
 Plot growth rate taking into account initial tip variation
+
 `ggplot(gr.res, aes(x = tips.at.limit1, y = gr_per_tip)) +
   geom_point(alpha = 0.6) +
   geom_smooth(method = "lm", se = TRUE, color = "red") +
