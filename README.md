@@ -48,6 +48,32 @@ Plot growth rate taking into account initial tip variation
    Results in subfolder: Summary_Results
 
 
+## Statistical analysis - Bayesian environmental-effect and invariance analysis for oCelloscope MA-line summaries
+
+Place both MA_environmental_invariance_Bayesian.R and summary_results.zip in the
+same folder in RStudio. Run source("MA_environmental_invariance_Bayesian.R").
+
+Note: Requires brms, ggplot2, dplyr, tidyr, posterior, loo, and CmdStan/cmdstanr
+or rstan installed in R
+
+The script imports all seven environment folders from summary_results.zip;
+it rechecks each well's adjusted R2 > 0.90, and combines only QC-passing
+technical wells within line x environment x measurement x R1/R2 labels.
+Uses the previously computed growth / initial tip with Student-t likelihood.
+
+CRITICAL: anc_A has ZERO QC-passing wells at pH 8, and anc_a has only ONE.
+No pH8 effects for mating-type A are estimable directly. The script
+excludes these unsupported comparisons. pH8 mating-type a is very fragile.
+
+## Results
+
+1. Distribution of mutational effects: 12_environment_vs_control_posterior.csv file
+
+   
+
+
+
+
 
 
 
