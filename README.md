@@ -4,7 +4,7 @@ This project analyses environmental effects on Mutation accumulation lines.
 
 For more information: https://pubmed.ncbi.nlm.nih.gov/36922001/
 
-## Data analysis
+## Summary of the data, growth rate calculation and quality control check
 
 1. For generating raw growth rate curves, use script oCelloscope_functions.R.
 
